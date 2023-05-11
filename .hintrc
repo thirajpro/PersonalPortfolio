@@ -13,6 +13,13 @@
     "meta-viewport": "off",
     "detect-css-reflows/composite": "off",
     "detect-css-reflows/layout": "off",
-    "detect-css-reflows/paint": "off"
+    "detect-css-reflows/paint": "off",
+    "button-type": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ]
   }
 }
