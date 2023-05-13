@@ -95,3 +95,26 @@ button:hover span{
 button:hover{
     border: none;
 }
+.about{
+    width: 100%;
+    text-align: center;
+}
+.projects{
+    margin:auto;
+    padding: 0;
+    text-align: center;
+}
+.contact{
+    margin:auto;
+    padding: 0;
+    text-align: center;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    color:#fff;
+    font-size: 13px;
+    background-color:dimgray;
+}
