@@ -10,6 +10,14 @@
     background-size: cover;
     background-position: center;
 }
+.parallax{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar{
    width: 85%;
    margin: auto;
@@ -97,17 +105,46 @@ button:hover{
 }
 .about{
     width: 100%;
-    text-align: center;
+    text-align:center;
+}
+.about h2{
+    position: absolute;
+    margin: 20px auto;
+    
+}
+.about p{
+    text-align: justify;
+    margin: 60px auto;
+    
+}
+.about img{
+    width: 400px;
+    height: 600px;
+    margin: 30px auto;
+    
+    
+    
 }
 .projects{
     margin:auto;
     padding: 0;
     text-align: center;
 }
+
+.subsection{
+    height:100vh;
+}
 .contact{
     margin:auto;
     padding: 0;
     text-align: center;
+}
+.contact-background {
+    width: auto;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.75);
+    
+    
 }
 
 footer{
@@ -117,4 +154,7 @@ footer{
     color:#fff;
     font-size: 13px;
     background-color:dimgray;
+}
+.footer a{
+    color: black;
 }
