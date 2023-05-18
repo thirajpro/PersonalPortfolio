@@ -19,6 +19,7 @@
     background-size: cover;
 }
 .navbar{
+    position:relative;
    width: 85%;
    margin: auto;
    padding: 35px 0; 
@@ -115,13 +116,9 @@ button:hover{
     background-position: center;
 }
 .about h2{
-    position: absolute;
-    margin: 20px auto;
-    
-}
-.about p{
-    text-align: justify;
-    margin: 60px auto;
+    text-align: left;
+    color: #fff;
+    font-size: 45px;
     
 }
 .about img{
@@ -134,6 +131,9 @@ button:hover{
     margin:auto;
     padding: 0;
     text-align: center;
+}
+.projectbackground{
+    background-image: linear-gradient(rgba(0,0,0.75),rgba(0,0,0.75));
 }
 
 .subsection{
